@@ -1,35 +1,40 @@
 /**********************************
  Common styles
 ***********************************/
-body{
-  background: #f2f2f2;
-  font: 14px/24px arial, sans-serif;	
-  line-height: 30px
+body {
+  background: #fff;
+  font: 14px/24px arial, sans-serif;
+  line-height: 30px;
 }
 /* Reset*/
 
-ul,li,h1,h2,h3,p{
-  margin: 0; padding: 0;
-}
-li{
-  list-style: none;
-}
-a{
-  color: #000;
-}
-a.active{
-  font-weight: bold;
-}
-
-#wrapper{
+ul,
+li,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
   padding: 0;
 }
-#site-header{
-  background : #24292e;
-  padding: 20px; 
+li {
+  list-style: none;
+}
+a {
+  color: #000;
+}
+a.active {
+  font-weight: bold;
+}
+#wrapper {
+  padding: 0;
+}
+#site-header {
+  background: #24292e;
+  padding: 20px;
   color: #fff;
 }
-#main-content{
+#main-content {
   padding: 20px;
 }
 
@@ -37,26 +42,26 @@ a.active{
  Issues listing page styles
 ***********************************/
 
-.repo-info{
+.repo-info {
   padding: 20px 0;
 }
-.issues-wrapper{
+.issues-wrapper {
   border: 1px solid #e1e4e8;
 }
-.issues-header{
+.issues-header {
   padding: 10px;
-  background: #f6f8fa
+  background: #f6f8fa;
 }
-.issues-header a{
+.issues-header a {
   text-decoration: none;
 }
-.issues-wrapper li{
-   padding: 10px;
-   border-bottom: 1px solid #e1e4e8;
+.issues-wrapper li {
+  padding: 10px;
+  border-bottom: 1px solid #e1e4e8;
 }
-.issues-wrapper li:last-child{
-   border-bottom: none;
+.issues-wrapper li:last-child {
+  border-bottom: none;
 }
-#site-footer{
+#site-footer {
   padding: 20px;
 }
