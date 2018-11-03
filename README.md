@@ -1,1 +1,1 @@
-# react-redux-gitissues
+Git issues page
