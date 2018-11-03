@@ -7,15 +7,24 @@ import IssuesHeader from "../components/issuesheader";
 import RepoInfo from "../components/repoinfo";
 
 export default class Issues extends PureComponent {
+  componentDidMount() {
+    const {
+      match: { params },
+      getIssues
+    } = this.props;
+
+    getIssues(params.account, params.repository);
+  }
   render() {
+    const { issuesList, repsitoryinfo } = this.props.issues;
     return (
       <div>
         <Header />
         <main id="main-content">
-          <RepoInfo />
-          <div class="issues-wrapper">
+          <RepoInfo repsitoryinfo={repsitoryinfo} />
+          <div className="issues-wrapper">
             <IssuesHeader />
-            <List />
+            <List issuesList={issuesList} />
           </div>
         </main>
         <Footer />
