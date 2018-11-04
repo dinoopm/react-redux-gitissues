@@ -1,4 +1,5 @@
 import React from "react";
+import DateFormatter from "../components/dateformatter";
 export default ({ issuesList }) => {
   console.log(issuesList);
   if (issuesList) {
@@ -13,7 +14,8 @@ export default ({ issuesList }) => {
                     <a href="#">{issues.title}</a>
                   </h3>
                   <p>
-                    #{issues.number} opened on {issues.user.created_at} by
+                    #{issues.number} opened{" "}
+                    <DateFormatter datesrc={issues.created_at} /> by{" "}
                     {issues.user.login}
                   </p>
                 </div>
