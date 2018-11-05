@@ -1,4 +1,4 @@
-# Simplified Git Issues page
+# Simplified Git Issues Page
 
 **How to start the client** 
 
