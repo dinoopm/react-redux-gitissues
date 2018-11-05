@@ -17,6 +17,8 @@ To start the react  app.
 
 yarn start
 
+http://localhost:3000/issues/facebook/react
+
 ```
 
 To Run Test.
