@@ -1,7 +1,6 @@
 import React from "react";
 import DateFormatter from "../components/dateformatter";
 export default ({ issuesList }) => {
-  console.log(issuesList);
   if (issuesList) {
     return (
       <div>
